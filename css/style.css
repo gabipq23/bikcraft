@@ -13,6 +13,11 @@ a{
     text-decoration: none;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
 .header-bg{
     background-color: #000;
 }
@@ -83,3 +88,4 @@ a{
         font-size: 14px;
     }
 }
+
