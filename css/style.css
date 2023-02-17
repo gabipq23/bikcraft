@@ -6,6 +6,8 @@
 /* HOME */
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+
 
 /* UTILIDADES */
 @import "./utilidades/componentes.css";
