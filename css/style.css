@@ -10,9 +10,11 @@
 @import "./home/depoimento.css";
 
 
-
 /* UTILIDADES */
 @import "./utilidades/componentes.css";
 
 /* BICICLETAS */
 @import "./bicicletas/bicicletas-lista.css";
+
+/* SEGUROS */
+@import "./seguros/seguros.css";

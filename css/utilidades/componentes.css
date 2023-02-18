@@ -23,10 +23,20 @@
     font-weight: bold;
     font-family: 'Josefin Sans';
     font-weight: 600;
+    max-width: max-content;
 }
 
 .botao:hover{
   background: var(--cor-p3);  
+}
+
+.botao.secundario{
+    background: var(--cor-10);
+    color: var(--cor-2);
+}
+
+.botao.secundario:hover{
+    background: var(--cor-9);
 }
 
 
