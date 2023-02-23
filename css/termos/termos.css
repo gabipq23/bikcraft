@@ -1,0 +1,17 @@
+.termos{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.termos h2{
+    margin-bottom: 20px;
+}
+
+/* todo 'h2' que tem um 'p' em cima */
+.termos p + h2{
+    margin-top: 40px;
+}
+.termos p {
+    max-width: 75ch;
+    margin-bottom: 24px;
+}
