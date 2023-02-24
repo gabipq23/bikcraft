@@ -1,0 +1,100 @@
+/* VANTAGENS */
+.vantagens-bg{
+    background-color: var(--cor-12);
+}
+
+.vantagens{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.vantagens h2{
+    margin-bottom: 60px;
+}
+
+.vantagens ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+    gap: 40px 80px;
+}
+
+.vantagens h3, .vantagens img{
+    margin-bottom: 8px;
+}
+
+@media(max-width: 800px){
+    .vantagens{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .vantagens h2{
+        margin-bottom: 40px;
+    }
+    .vantagens ul{
+        gap: 20px;
+    }
+}
+
+
+/* PERGUNTAS */
+.perguntas{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.perguntas h2{
+    margin-bottom: 60px;
+}
+.perguntas dl > div{
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.perguntas dl > div:nth-child(odd){
+    background-color: var(--cor-1);
+}
+
+.perguntas dt{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.perguntas dt::before{
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    background-color: var(--cor-p1);
+}
+
+.perguntas dt::after{
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 6px;
+    background: url("../../img/icones/seta-abrir.svg");
+    transition: 0.3s;
+}
+
+.perguntas dt:hover::after{
+    transform: rotate(180deg);
+}
+
+.perguntas dd{
+    padding-left: 20px;
+    padding-top: 16px;
+    max-width: 89ch;
+}
+
+@media(max-width: 800px){
+    .perguntas{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .perguntas h2{
+        margin-bottom: 40px;
+    }
+}
