@@ -12,6 +12,8 @@
 
 /* UTILIDADES */
 @import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
+
 
 /* BICICLETAS */
 @import "./bicicletas/bicicletas-lista.css";
@@ -24,6 +26,10 @@
 @import "./seguros/vantagens_perguntas.css";
 
 @import "./bicicleta/seguro.css";
+
+/* CONTATO/LOJAS */
+@import "./contato/contato_lojas.css";
+
 
 /* TERMOS */
 @import "./termos/termos.css";

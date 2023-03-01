@@ -22,8 +22,10 @@
     line-height: 1.33;
     font-weight: bold;
     font-family: 'Josefin Sans';
-    font-weight: 600;
+    font-weight: 500;
     max-width: max-content;
+    border: none;
+    cursor: pointer;
 }
 
 .botao:hover{
