@@ -41,9 +41,26 @@ function ativarPergunta(event){
 }
 
 function eventosPerguntas(pergunta){
-    pergunta.addEventListener('click', ativarPergunta);
-    
+    pergunta.addEventListener('click', ativarPergunta);  
 }
 
 perguntas.forEach(eventosPerguntas);
 
+
+// galeria de bicicletas
+const galeria = document.querySelectorAll(".bicicleta-img img");
+const galeriaContainer = document.querySelector(".bicicleta-img");
+
+function trocarImagem(event){
+    const img = event.currentTarget;
+    const midia = matchMedia("(min-width: 1000px)").matches;
+    if(midia){
+        galeriaContainer.prepend(img);
+    }
+}
+
+function eventosGaleria(img){
+    img.addEventListener('click', trocarImagem);
+}
+
+galeria.forEach(eventosGaleria);
